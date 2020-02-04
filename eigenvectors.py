@@ -226,6 +226,8 @@ def main():
     # Handle subplot margins:
 
     fig_analytic.tight_layout()
+    fig_numeric.tight_layout()
+    fig_comp.tight_layout()
 
     # Display and / or save figure(s):
 
